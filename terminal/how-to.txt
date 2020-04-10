@@ -1,0 +1,6 @@
+based on https://unix.stackexchange.com/questions/448811/how-to-export-a-gnome-terminal-profile
+
+export:
+dconf dump /org/gnome/terminal/legacy/profiles:/ > gnome-terminal-profiles.dconf
+import:
+dconf load /org/gnome/terminal/legacy/profiles:/ < gnome-terminal-profiles.dconf

@@ -1,0 +1,7 @@
+based on https://askubuntu.com/questions/26056/where-are-gnome-keyboard-shortcuts-stored/1200952#1200952
+
+export:
+dconf dump / | sed -n '/\[org.gnome.settings-daemon.plugins.media-keys/,/^$/p' > custom-shortcuts.ini # Export
+
+import:
+dconf load / < custom-shortcuts.ini # Import

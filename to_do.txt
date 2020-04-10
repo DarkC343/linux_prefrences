@@ -1,0 +1,2 @@
+export language settings (adding persian keyboard)
+export terminal specific shortcuts
