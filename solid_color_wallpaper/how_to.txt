@@ -1,0 +1,4 @@
+#To set grey color to desktop background, enter:
+gsettings set org.gnome.desktop.background picture-uri ''
+gsettings set org.gnome.desktop.background primary-color '#606060'
+
