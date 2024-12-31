@@ -5,6 +5,8 @@
 
 استفاده از نیم‌فاصله در صفحه کلید iOS ساده است، زیرا کنار کلید Space است. در این‌جا یاد می‌گیریم عملکرد کلید 'Right Alt' در رایانه شخصی‌مون را به نیم‌فاصله تغییر دهیم.
 
+![nimfasele_doc](https://github.com/user-attachments/assets/ff2fbe7c-1bf8-4ba1-b355-80343239f13b){:style="display:block; margin-left:auto; margin-right:auto"}
+
 ## مراحل
 ### Nimfasele defitinion
 Edit `/usr/share/X11/xkb/symbols/ir` as super-user to define a new custom keyboard. We reuse standard "ir(winkeys)" with additional changes.
